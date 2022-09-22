@@ -7,7 +7,7 @@ dfCalificaciones["promedio"] = (dfCalificaciones["tarea1"] + dfCalificaciones["t
 
 dfCalificaciones["final"] = dfCalificaciones["promedio"].apply(lambda x: "Aprobado" if (x >=70) else "REPROBADO")
 
-dfResultados = dfCalificaciones[["matricula", "promedio","Status3"]]
+dfResultados = dfCalificaciones[["matricula", "promedio","final"]]
 
 dfReasultados
 
