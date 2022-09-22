@@ -9,6 +9,6 @@ dfCalificaciones["final"] = dfCalificaciones["promedio"].apply(lambda x: "Aproba
 
 dfResultados = dfCalificaciones[["matricula", "promedio","final"]]
 
-dfReasultados
+dfResultados
 
 st.dataframe(dfResultados)
